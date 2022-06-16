@@ -12,4 +12,12 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('I am a noob in Pokemon, but I will get better')
 
+pokemon1 = "bulbasaur"
+pokemon2 = "charmander"
+
+if len(pokemon1) > len(pokemon2):
+    print(pokemon1 + " is stronger than " + pokemon2)
+else:
+    print(pokemon2 + " is stronger than " + pokemon1)
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
